@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Internal eBay Product Research and Purchasing Decision Support</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 760px;
+      margin: 60px auto;
+      padding: 0 24px;
+      line-height: 1.6;
+      color: #222;
+    }
+    h1 { line-height: 1.2; }
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Internal eBay Product Research and Purchasing Decision Support</h1>
+
+    <p>
+      This is a private internal application used to research products listed
+      on eBay US for potential manual purchase and subsequent resale in Argentina.
+    </p>
+
+    <p>
+      The application uses eBay's Browse API to search configured product models,
+      retrieve listing information, and maintain observations for product research.
+      It calculates estimated landed cost, profit, and ROI using
+      operator-configured economic assumptions.
+    </p>
+
+    <p>
+      All purchasing decisions and purchases are performed manually by the operator.
+      The application does not automatically purchase items, place bids, submit
+      offers, snipe auctions, create eBay listings, reprice listings, or fulfill
+      eBay orders.
+    </p>
+
+    <p>
+      API usage is bounded by explicit call budgets, pagination limits, and result
+      limits to minimize unnecessary traffic.
+    </p>
+  </main>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</body>
+</html>
